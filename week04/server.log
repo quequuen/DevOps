@@ -1,0 +1,10 @@
+2026-09-30 10:00:01 [INFO] Server started
+2026-09-30 10:01:12 [INFO] User connected
+2026-09-30 10:02:23 [ERROR] Database connection failed
+2026-09-30 10:03:15 [WARNING] High memory usage
+2026-09-30 10:04:01 [INFO] User disconnected
+2026-09-30 10:05:42 [ERROR] Request timeout
+2026-09-30 10:06:10 [ERROR] Failed to send response
+2026-09-30 10:07:33 [INFO] Server is running
+2026-09-30 10:08:45 [error] Cache connection failed
+2026-09-30 10:09:01 [INFO] Server shutdown
