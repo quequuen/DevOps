@@ -336,6 +336,20 @@ Docker의 핵심 구조를 하나로 연결하면 다음과 같다.
                     Hardware
 ```
 
+# 9. 주요 개념 정리
+
+```
+IMAGE
+  ↓ docker run
+CONTAINER
+  ↓ docker stop
+STOPPED CONTAINER
+  ↓ docker rm
+삭제
+```
+
+
+
 ### 핵심 키워드
 
 * **VM**: Guest OS를 포함하여 OS 단위로 가상화
@@ -346,3 +360,46 @@ Docker의 핵심 구조를 하나로 연결하면 다음과 같다.
 * **Container**: Image로부터 생성된 실행 인스턴스
 * **Registry**: Docker Image를 저장하고 공유하는 저장소
 
+### 핵심 명령어
+
+# 실행
+docker run -d -p 8080:80 --name web nginx
+
+# 실행 중인 컨테이너
+docker ps
+
+# 전체 컨테이너
+docker ps -a
+
+# 이미지
+docker images
+
+# 중지
+docker stop web
+
+# 시작
+docker start web
+
+# 재시작
+docker restart web
+
+# 삭제
+docker rm web
+
+# 강제 삭제
+docker rm -f web
+
+# 로그
+docker logs web
+
+# 실시간 로그
+docker logs -f web
+
+# 컨테이너 내부
+docker exec -it web bash
+
+# 일회용
+docker run --rm ubuntu:24.04 bash
+
+# 디스크 확인
+docker system df
