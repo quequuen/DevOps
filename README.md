@@ -72,3 +72,9 @@ src/
 ├── week03/   # 3주차 실습
 └── ...
 ```
+
+## 주차별 정리
+- [2주차 내용 정리](./week02/README.md)
+- [3주차 내용 정리](./week03/README.md)
+- [4주차 내용 정리](./week04/README.md)
+- [5주차 내용 정리](./week05/README.md)
