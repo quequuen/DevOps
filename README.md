@@ -78,3 +78,5 @@ src/
 - [3주차 내용 정리](./week03/README.md)
 - [4주차 내용 정리](./week04/README.md)
 - [5주차 내용 정리](./week05/README.md)
+- [6주차 내용 정리](./week06/README.md)
+- [7주차 내용 정리](./week07/README.md)
