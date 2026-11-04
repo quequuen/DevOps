@@ -1,0 +1,4 @@
+# guestbook v1 이미지를 베이스로 APP_TITLE만 바꿔서 v2를 만든다.
+# (롤링 업데이트 실습용 — guestbook/ 원본 소스는 건드리지 않는다)
+FROM ghcr.io/quequuen/guestbook:v1
+ENV APP_TITLE="InhaTC DevOps 방명록 v2"
